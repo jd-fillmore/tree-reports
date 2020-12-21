@@ -1,0 +1,51 @@
+@import "../scss/breakpoints.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  @include bp-tablet-sm {
+    line-height: 1.6;
+  }
+}
+
+a,
+p,
+ol,
+ul {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+a {
+  transition: 0.2s;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 60px;
+  @include bp-tablet-sm {
+    font-size: 30px;
+  }
+}
+
+h2 {
+  font-size: 60px;
+  @include bp-tablet-sm {
+    font-size: 28px !important;
+  }
+}
+
+h3 {
+  font-size: 50px;
+  @include bp-tablet-sm {
+    font-size: 24px !important;
+  }
+}

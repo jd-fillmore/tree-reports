@@ -1,0 +1,15 @@
+@import "../../src/scss/breakpoints.scss";
+@import "../../src/scss/variables.scss";
+
+.inner-content {
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+
+  hr {
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
