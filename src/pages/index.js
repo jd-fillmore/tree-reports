@@ -22,16 +22,16 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Certified Consulting Arborist in Niagara</title>
+        <title>Certified Arborist in Niagara Region</title>
         <meta
           name="description"
-          content="Niagara's certified consulting arborist. Connect today with TreeReports for fast turnaround times. Over 25 years experience."
+          content="Niagara's certified arborist. Connect today with TreeReports for fast turnaround times. Over 25 years experience."
         />
       </Helmet>
       <Nav />
       <Hero
-        title="Certified Consulting Arborist in Niagara"
-        subtitle="We cover all your arborist support needs."
+        title="Certified Consulting Arborist in Niagara Region"
+        subtitle="We cover all of your arborist needs in Niagara &amp; beyond."
         btnText="Get A Quote"
         btnLink="get-a-quote"
       />
@@ -48,30 +48,32 @@ const Home = () => {
           "Fastest turnaround times for Arborist Reports and Consulting services in Burlington and the Niagara Region.",
         ]}
       />
-      <Container>
-        <Row>
-          <Col lg="6">
-            <Why
-              title={[<span>Why</span>, "You Need An Arborist"]}
-              desc="An ASCA Registered Consulting Arborist (RCA) is the foremost authority with respect to our urban forest"
-              btnText="Learn Why"
-              btnLink="/why-you-need-an-arborist"
-              img={howImg}
-              imgAlt="niagara arborist support"
-            />
-          </Col>
-          <Col lg="6">
-            <Why
-              title={[<span>How</span>, "We Can Help"]}
-              desc="TreeReports covers the full spectrum of all your consulting arborist needs. "
-              btnText="Learn How"
-              btnLink="/about"
-              img={whyImg}
-              imgAlt="niagara arborist"
-            />
-          </Col>
-        </Row>
-      </Container>
+      <section className="why">
+        <Container>
+          <Row>
+            <Col lg="6">
+              <Why
+                title={[<span>Why</span>, "You Need An Arborist"]}
+                desc="An ASCA Registered Consulting Arborist (RCA) is the foremost authority with respect to our urban forest"
+                btnText="Learn Why"
+                btnLink="/why-you-need-an-arborist"
+                img={howImg}
+                imgAlt="niagara arborist support"
+              />
+            </Col>
+            <Col lg="6">
+              <Why
+                title={[<span>How</span>, "We Can Help"]}
+                desc="TreeReports covers the full spectrum of all your consulting arborist needs. "
+                btnText="Learn How"
+                btnLink="/about"
+                img={whyImg}
+                imgAlt="niagara arborist"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <Communities
         title={[<span>We</span>, "Serve Some Great Communities"]}
         img={citiesImg}
