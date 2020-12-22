@@ -11,11 +11,11 @@ const CTA = () => {
       <section className="cta">
         <Container>
           <Row>
-            <Col lg="12">
-              <h2>CTA</h2>
-              <p>Get in touch with us with what you'd like to accomplish.</p>
+            <Col lg="12" className="text-center">
+              <h2>Ready to start your project?</h2>
+              <p>Contact us today and we’ll get back to you with a quote.</p>
               <Link to="/get-started">
-                <Button>Get Started</Button>
+                <Button>Get A Quote</Button>
               </Link>
             </Col>
           </Row>

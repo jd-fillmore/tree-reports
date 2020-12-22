@@ -1,4 +1,5 @@
 @import "../scss/breakpoints.scss";
+@import "../scss/variables.scss";
 
 h1,
 h2,
@@ -6,7 +7,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: $heading-font;
+  font-weight: 300;
+  color: $heading;
   @include bp-tablet-sm {
     line-height: 1.6;
   }
@@ -17,14 +21,17 @@ p,
 ol,
 ul {
   font-size: 18px;
+  font-family: $body-font;
   line-height: 1.8;
 }
 
 a {
+  color: $green;
   transition: 0.2s;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
   &:focus,
   &:hover {
+    color: $heading;
     text-decoration: none;
   }
 }
@@ -37,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 44px;
   @include bp-tablet-sm {
     font-size: 28px !important;
   }

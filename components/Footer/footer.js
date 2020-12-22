@@ -6,31 +6,20 @@ import "../Footer/footer.scss"
 
 const pages = [
   {
-    name: "link",
-    link: "/link",
+    name: "Services",
+    link: "/services",
   },
   {
-    name: "link",
-    link: "/link",
+    name: "About",
+    link: "/about",
   },
   {
-    name: "link",
-    link: "/link",
-  },
-]
-
-const services = [
-  {
-    name: "link",
-    link: "/link",
+    name: "Why You Need An Arborist",
+    link: "/why-you-need-an-arborist",
   },
   {
-    name: "link",
-    link: "/link",
-  },
-  {
-    name: "link",
-    link: "/link",
+    name: "Get A Quote",
+    link: "/get-a-quote",
   },
 ]
 
@@ -40,9 +29,15 @@ const Footer = () => {
       <section className="footer">
         <Container>
           <Row>
-            <Col lg="3">
+            <Col lg="4">
               <h3>About</h3>
-              <p>description</p>
+              <p>
+                Here at TreeReports we offer the full spectrum of consulting
+                services in the field of arboriculture. We are committed to
+                providing unparalleled customer service to all of our clients.
+                Our Registered Consulting Arborist possesses a wealth of
+                knowledge to cover all your consulting arborist needs.{" "}
+              </p>
             </Col>
             <Col lg="3">
               <h3>Pages</h3>
@@ -54,23 +49,14 @@ const Footer = () => {
                 ))}
               </ul>
             </Col>
-            <Col lg="3">
-              <h3>Services</h3>
-              <ul>
-                {services.map(service => (
-                  <li>
-                    <Link to={service.link}>{service.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </Col>
-            <Col lg="3">
+            <Col lg="4">
               <h3>Contact</h3>
               <ul>
                 <li>
-                  <Link to="/get-started">Get Started</Link>
+                  <Link to="/get-a-quote">Get A Quote</Link>
                 </li>
               </ul>
+              <p>&copy; 2021 TreeReports. All Rights Reserved.</p>
             </Col>
           </Row>
         </Container>

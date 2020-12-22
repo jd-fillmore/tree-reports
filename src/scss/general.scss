@@ -30,6 +30,11 @@ a {
   }
 }
 
+span {
+  background: linear-gradient(0deg, $heading 40%, transparent 0);
+  padding: 0 5px;
+}
+
 h1 {
   font-size: 60px;
   @include bp-tablet-sm {

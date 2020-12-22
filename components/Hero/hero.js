@@ -5,16 +5,17 @@ import Button from "../Button/button"
 
 import "../Hero/hero.scss"
 
-const Hero = () => {
+const Hero = ({ title, subtitle, btnText, btnLink }) => {
   return (
     <>
       <section className="hero">
         <Container>
           <Row>
             <Col lg="12">
-              <h2>Hero</h2>
-              <Link to="/get-started">
-                <Button>Get Started</Button>
+              <h1>{title}</h1>
+              <h2>{subtitle}</h2>
+              <Link to={btnLink}>
+                <Button>{btnText}</Button>
               </Link>
             </Col>
           </Row>

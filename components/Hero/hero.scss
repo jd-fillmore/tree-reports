@@ -1,5 +1,14 @@
 @import "../../src/scss/variables.scss";
 @import "../../src/scss/breakpoints.scss";
 
-.cta {
+.hero {
+  background: url("../../src/img/hero.jpg") center center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  padding: 200px 0px 200px 0px;
+  text-align: center;
+  h1 {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }

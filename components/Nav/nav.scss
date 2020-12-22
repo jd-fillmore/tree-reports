@@ -1,8 +1,9 @@
 @import "../../src/scss/variables.scss";
 @import "../../src/scss/breakpoints.scss";
 
-.nav {
-  background: rgba(0, 0, 0, 0) !important;
+.fixed-top {
+  background: rgba($white, 0.9) !important;
+  box-shadow: 0 0 8px rgba(32, 37, 45, 0.08);
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -38,7 +39,6 @@
 }
 
 .navbar {
-  margin-top: 30px !important;
   padding: 0.5rem 2rem !important;
   @include bp-tablet-sm {
     margin-top: 0px !important;
@@ -51,6 +51,7 @@
     z-index: 1030 !important;
   }
   a {
+    font-family: $heading-font;
     color: #333 !important;
     font-size: 14px;
     @include bp-tablet-sm {
@@ -88,9 +89,19 @@
 }
 
 .nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
   @media (min-width: 992px) {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+  }
+  a {
+    border-bottom: 2px solid transparent;
+    &:focus,
+    &:hover {
+      border-bottom: 2px solid $green;
+      color: $green;
+    }
   }
 }
 
