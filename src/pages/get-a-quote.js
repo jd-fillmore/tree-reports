@@ -12,7 +12,7 @@ const GetAQuote = () => {
     <>
       <Helmet>
         <title>Get A Quote - TreeReports</title>
-        <meta name="description" content="description" />
+        <meta name="description" content="Click here to get a quote now." />
       </Helmet>
       <Nav />
       <InnerHero

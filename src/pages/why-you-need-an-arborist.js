@@ -12,10 +12,18 @@ const Why = () => {
     <>
       <Helmet>
         <title>Why - TreeReports</title>
-        <meta name="description" content="description" />
+        <meta
+          name="description"
+          content="Arborists specialize in the care of individual trees. They are
+                  knowledgeable about the needs of trees, and are trained and
+                  equipped to provide proper care."
+        />
       </Helmet>
       <Nav />
-      <InnerHero title="Why You Need An Arborist" description="description" />
+      <InnerHero
+        title="Why You Need An Arborist"
+        description="Benefits for why you need an arborist"
+      />
       <InnerContent>
         <section className="inner">
           <Container>

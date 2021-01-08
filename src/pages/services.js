@@ -40,7 +40,7 @@ const Services = () => {
       <Nav />
       <InnerHero
         title="Services"
-        description="We offer a wide array of services at TreeReports"
+        description="We offer a wide array of services at TreeReports. Click here to learn more."
       />
       <InnerContent>
         <section className="inner">

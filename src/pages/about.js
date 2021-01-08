@@ -43,7 +43,11 @@ const About = () => {
     <>
       <Helmet>
         <title>About - TreeReports</title>
-        <meta name="description" content="description" />
+        <meta
+          name="description"
+          content="Harry Althorpe is the Senior Consulting Arborist and has over
+                  25 years experience in the field of arboriculture."
+        />
       </Helmet>
       <Nav />
       <InnerHero

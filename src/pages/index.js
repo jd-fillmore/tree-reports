@@ -22,10 +22,12 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Certified Arborist in Niagara Region</title>
+        <title>
+          Certified Consulting Arborist in Niagara Region - TreeReports
+        </title>
         <meta
           name="description"
-          content="Niagara's certified arborist. Connect today with TreeReports for fast turnaround times. Over 25 years experience."
+          content="Niagara's certified consulting arborist. Connect today with TreeReports for fast turnaround times. Over 25 years experience."
         />
       </Helmet>
       <Nav />
