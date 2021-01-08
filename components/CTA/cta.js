@@ -13,8 +13,11 @@ const CTA = () => {
           <Row>
             <Col lg="12" className="text-center">
               <h2>Ready to start your project?</h2>
-              <p>Contact us today and we’ll get back to you with a quote.</p>
-              <Link to="/get-started">
+              <p>
+                Contact us today and we’ll get back to you with a quote. We
+                offer complete contactless service and any payment options.
+              </p>
+              <Link to="/get-a-quote">
                 <Button>Get A Quote</Button>
               </Link>
             </Col>

@@ -6,12 +6,9 @@
   padding: 180px 0px 120px 0px;
   margin-top: 0px;
   text-align: center;
-
-  h1 {
-    color: $white;
-  }
+  h1,
   p {
-    color: rgba($white, 0.7);
+    color: $white;
   }
   h1 {
     font-size: 18px;

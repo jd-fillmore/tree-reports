@@ -8,6 +8,7 @@ import {
   Nav,
   NavItem,
 } from "reactstrap"
+import logo from "../../src/img/logo.png"
 import "../Nav/nav.scss"
 
 const Example = props => {
@@ -20,7 +21,7 @@ const Example = props => {
       <Navbar className="fixed-top" id="nav" expand="lg">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
-            logo
+            <img src={logo} alt="tree reports logo" />
           </Link>
         </NavbarBrand>
         <NavbarToggler className="custom-toggler" onClick={toggle} />
