@@ -6,4 +6,19 @@
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
   }
+  h2 {
+    margin-bottom: 60px;
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  p {
+    &#author {
+      text-align: center;
+      color: $heading;
+    }
+  }
 }

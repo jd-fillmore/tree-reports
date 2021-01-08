@@ -11,7 +11,7 @@ const Why = () => {
   return (
     <>
       <Helmet>
-        <title>Why - Company</title>
+        <title>Why - TreeReports</title>
         <meta name="description" content="description" />
       </Helmet>
       <Nav />
@@ -22,7 +22,30 @@ const Why = () => {
             {/* One */}
             <Row>
               <Col lg="12">
-                <p>content</p>
+                <p>
+                  Arborists specialize in the care of individual trees. They are
+                  knowledgeable about the needs of trees, and are trained and
+                  equipped to provide proper care. Hiring an arborist is a
+                  decision that should not be taken lightly. Proper tree care is
+                  an investment that can lead to substantial returns. Well
+                  cared-for trees are attractive and can add considerable value
+                  to your property. Poorly maintained trees can be a significant
+                  liability. Pruning or removing trees, especially large trees,
+                  can be dangerous work. Tree work should be done only by those
+                  trained and equipped to work safely in trees.
+                </p>
+                <h2>What is a Certified Arborist?</h2>
+                <p>
+                  An arborist by definition is an individual who is trained in
+                  the art and science of planting, caring for, and maintaining
+                  individual trees. ISA arborist certification is a
+                  nongovernmental, voluntary process by which individuals can
+                  document their base of knowledge. Certified Arborists are
+                  individuals who have achieved a level of knowledge in the art
+                  and science of tree care through experience and by passing a
+                  comprehensive examination developed by some of the nation’s
+                  leading experts on tree care.
+                </p>
               </Col>
             </Row>
           </Container>

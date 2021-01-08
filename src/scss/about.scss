@@ -1,0 +1,9 @@
+@import "../../src/scss/breakpoints.scss";
+@import "../../src/scss/variables.scss";
+
+p {
+  &#author {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

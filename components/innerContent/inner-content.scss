@@ -6,10 +6,15 @@
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
   }
-
   hr {
     width: 100px;
     margin-top: 0px;
     margin-bottom: 30px;
+  }
+  .row {
+    margin-top: 20px;
+    &:first-child {
+      margin-top: 0px;
+    }
   }
 }

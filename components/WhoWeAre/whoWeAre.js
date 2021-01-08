@@ -24,9 +24,9 @@ const WhoWeAre = ({
           <Row>
             <Col lg="5">
               <img className="img-fluid" src={imgAuthor} alt={imgAlt} />
-              <p>{author}</p>
+              <p id="author">{author}</p>
             </Col>
-            <Col lg="6">
+            <Col lg={{ size: 6, offset: 1 }}>
               <p>{description}</p>
               <img className="img-fluid" src={logos} alt={logosAlt} />
             </Col>

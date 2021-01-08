@@ -2,4 +2,16 @@
 @import "../../src/scss/breakpoints.scss";
 
 .cta {
+  background: $green;
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  h2,
+  p {
+    color: $white;
+  }
+  button {
+    background: $heading;
+  }
 }

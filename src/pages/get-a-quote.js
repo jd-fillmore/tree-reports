@@ -11,7 +11,7 @@ const GetAQuote = () => {
   return (
     <>
       <Helmet>
-        <title>Get A Quote - Company</title>
+        <title>Get A Quote - TreeReports</title>
         <meta name="description" content="description" />
       </Helmet>
       <Nav />

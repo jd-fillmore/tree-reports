@@ -30,7 +30,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="4">
-              <h3>About</h3>
+              <h5>About</h5>
               <p>
                 Here at TreeReports we offer the full spectrum of consulting
                 services in the field of arboriculture. We are committed to
@@ -40,7 +40,7 @@ const Footer = () => {
               </p>
             </Col>
             <Col lg="3">
-              <h3>Pages</h3>
+              <h5>Pages</h5>
               <ul>
                 {pages.map(page => (
                   <li>
@@ -50,7 +50,7 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg="4">
-              <h3>Contact</h3>
+              <h5>Contact</h5>
               <ul>
                 <li>
                   <Link to="/get-a-quote">Get A Quote</Link>

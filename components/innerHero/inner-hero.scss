@@ -2,11 +2,16 @@
 @import "../../src/scss/variables.scss";
 
 .inner-hero {
-  padding: 160px 0px 120px 0px;
-  margin-top: -100px;
+  background: $green;
+  padding: 180px 0px 120px 0px;
+  margin-top: 0px;
   text-align: center;
-  @include bp-tablet-sm {
-    padding: 220px 0px 60px 0px;
+
+  h1 {
+    color: $white;
+  }
+  p {
+    color: rgba($white, 0.7);
   }
   h1 {
     font-size: 18px;
@@ -15,13 +20,14 @@
     letter-spacing: 2px;
   }
   p {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 0px;
   }
   hr {
-    width: 100px;
+    width: 50px;
     margin-top: 0px;
     margin-bottom: 30px;
+    border-bottom: 1px solid $white;
   }
   span {
     padding: 0px 5px 0px 5px;

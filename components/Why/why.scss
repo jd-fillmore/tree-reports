@@ -7,4 +7,15 @@
     padding: 60px 0px 60px 0px;
   }
   background: $light-grey;
+  img {
+    margin-top: 60px;
+    @include bp-tablet-sm {
+    }
+  }
+  h2 {
+    margin-bottom: 30px;
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
+  }
 }

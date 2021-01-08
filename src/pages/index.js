@@ -5,6 +5,7 @@ import Nav from "../../components/Nav/nav"
 import Hero from "../../components/Hero/hero"
 import WhoWeAre from "./../../components/WhoWeAre/whoWeAre"
 import Why from "../../components/Why/why"
+import Communities from "../../components/Communities/communities"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 import imgAuthor from "../img/certified-consulting-arborist-niagara.png"
@@ -16,7 +17,6 @@ import citiesImg from "../img/cities.jpg"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../scss/general.scss"
 import "../scss/typography.scss"
-import Communities from "../../components/Communities/Communities"
 
 const Home = () => {
   return (
@@ -38,6 +38,7 @@ const Home = () => {
       <WhoWeAre
         title={[<span>Who</span>, "We Are"]}
         logos={logos}
+        logosAlt="certified arborist niagara"
         imgAuthor={imgAuthor}
         imgAlt="certified consulting support arborist in niagara"
         author="Harry Althorpe, Owner | TreeReports"
@@ -57,7 +58,7 @@ const Home = () => {
                 desc="An ASCA Registered Consulting Arborist (RCA) is the foremost authority with respect to our urban forest"
                 btnText="Learn Why"
                 btnLink="/why-you-need-an-arborist"
-                img={howImg}
+                img={whyImg}
                 imgAlt="niagara arborist support"
               />
             </Col>
@@ -67,7 +68,7 @@ const Home = () => {
                 desc="TreeReports covers the full spectrum of all your consulting arborist needs. "
                 btnText="Learn How"
                 btnLink="/about"
-                img={whyImg}
+                img={howImg}
                 imgAlt="niagara arborist"
               />
             </Col>
