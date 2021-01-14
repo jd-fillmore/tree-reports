@@ -7,10 +7,12 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
+import img from "../img/services.jpg"
+
 const serviceOne = [
   "Tree inventories",
   "Health and condition ratings",
-  "Recommendations for free care",
+  "Recommendations for tree care",
   "Tree appraisal",
 ]
 
@@ -47,33 +49,31 @@ const Services = () => {
           <Container>
             {/* One */}
             <Row>
-              <Col lg="4">
+              <Col lg="6">
+                <img src={img} className="img-fluid" alt="services" />
+              </Col>
+
+              <Col lg="6">
                 <h4>Arborist Reports</h4>
                 <ul>
                   {serviceOne.map(i => (
                     <li>{i}</li>
                   ))}
                 </ul>
-              </Col>
-              <Col lg="4">
+
                 <h4>Tree Protection Plans &amp; Preservation</h4>
                 <ul>
                   {serviceTwo.map(i => (
                     <li>{i}</li>
                   ))}
                 </ul>
-              </Col>
-              <Col lg="4">
+
                 <h4>Tree Risk &amp; Health Assessments</h4>
                 <ul>
                   {serviceThree.map(i => (
                     <li>{i}</li>
                   ))}
                 </ul>
-              </Col>
-            </Row>
-            <Row>
-              <Col lg="6">
                 <h4>Site Monitoring &amp; Management</h4>
                 <ul>
                   {serviceFour.map(i => (

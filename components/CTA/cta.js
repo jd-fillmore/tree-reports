@@ -15,7 +15,7 @@ const CTA = () => {
               <h2>Ready to start your project?</h2>
               <p>
                 Contact us today and we’ll get back to you with a quote. We
-                offer complete contactless service and any payment options.
+                offer complete contactless service and payment options.
               </p>
               <Link to="/get-a-quote">
                 <Button>Get A Quote</Button>

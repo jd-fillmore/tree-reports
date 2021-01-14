@@ -7,6 +7,8 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
+import img from "../img/why.jpg"
+
 const Why = () => {
   return (
     <>
@@ -29,7 +31,10 @@ const Why = () => {
           <Container>
             {/* One */}
             <Row>
-              <Col lg="12">
+              <Col lg="6">
+                <img className="img-fluid" src={img} alt="why" />
+              </Col>
+              <Col lg="6">
                 <p>
                   Arborists specialize in the care of individual trees. They are
                   knowledgeable about the needs of trees, and are trained and
@@ -42,6 +47,10 @@ const Why = () => {
                   can be dangerous work. Tree work should be done only by those
                   trained and equipped to work safely in trees.
                 </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg="12">
                 <h2>What is a Certified Arborist?</h2>
                 <p>
                   An arborist by definition is an individual who is trained in

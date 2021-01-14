@@ -7,6 +7,8 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
+import img from "../img/quote.jpg"
+
 const GetAQuote = () => {
   return (
     <>
@@ -25,7 +27,10 @@ const GetAQuote = () => {
           <Container>
             {/* One */}
             <Row>
-              <Col lg="12">
+              <Col lg="6">
+                <img className="img-fluid" src={img} alt="quote" />
+              </Col>
+              <Col lg="6">
                 <form
                   name="contact"
                   method="post"

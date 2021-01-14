@@ -38,6 +38,9 @@ const Footer = () => {
                 Our Registered Consulting Arborist possesses a wealth of
                 knowledge to cover all your consulting arborist needs.{" "}
               </p>
+              <a className="ig" href="https://www.instagram.com/treereports/">
+                Follow us on Instagram
+              </a>
             </Col>
             <Col lg="3">
               <h5>Pages</h5>

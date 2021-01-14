@@ -7,7 +7,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-import imgAuthor from "../img/certified-consulting-arborist-niagara.png"
+import imgAuthor from "../img/about.jpg"
 import "../scss/about.scss"
 
 const creds = [
@@ -22,13 +22,13 @@ const why = [
   "Reports are our only focus. We have the fastest turnaround times available in the industry",
   "Locally owned and operated.  High quality, guaranteed work",
   "Thorough understanding of municipal by-laws, policies and procedures",
-  "Upfront transparent pricing and deliverable",
+  "Upfront transparent pricing and deliverables",
 ]
 
 const links = [
   {
     id: 1,
-    linkText: "ISA Arbor",
+    linkText: "International Society of Arboriculture",
     link: "https://www.isa-arbor.com/",
   },
   {
@@ -58,7 +58,7 @@ const About = () => {
         <section className="inner about">
           <Container>
             <Row>
-              <Col lg="5">
+              <Col lg="6">
                 <img
                   className="img-fluid"
                   src={imgAuthor}
@@ -66,7 +66,7 @@ const About = () => {
                 />
                 <p id="author">Harry Althorpe, Owner | TreeReports</p>
               </Col>
-              <Col lg={{ size: 6, offset: 1 }}>
+              <Col lg="6">
                 <p>
                   Harry Althorpe is the Senior Consulting Arborist and has over
                   25 years experience in the field of arboriculture. He is a

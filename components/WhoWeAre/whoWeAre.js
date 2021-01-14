@@ -11,6 +11,7 @@ const WhoWeAre = ({
   imgAuthor,
   logos,
   logosAlt,
+  mandate,
 }) => {
   return (
     <>
@@ -29,6 +30,7 @@ const WhoWeAre = ({
             <Col lg={{ size: 6, offset: 1 }}>
               <p>{description}</p>
               <img className="img-fluid" src={logos} alt={logosAlt} />
+              <p>{mandate}</p>
             </Col>
           </Row>
         </Container>

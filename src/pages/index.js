@@ -23,16 +23,16 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Certified Consulting Arborist in Niagara Region - TreeReports
+          Certified Consulting Arborists in Niagara Region - TreeReports
         </title>
         <meta
           name="description"
-          content="Niagara's certified consulting arborist. Connect today with TreeReports for fast turnaround times. Over 25 years experience."
+          content="Niagara's certified consulting arborists. Connect today with TreeReports for fast turnaround times. Over 25 years experience."
         />
       </Helmet>
       <Nav />
       <Hero
-        title="Certified Consulting Arborist in Niagara Region"
+        title="Certified Consulting Arborists in Niagara Region"
         subtitle="We cover all of your arborist needs in Niagara &amp; beyond."
         btnText="Get A Quote"
         btnLink="get-a-quote"
@@ -50,6 +50,7 @@ const Home = () => {
           <br />,
           "Fastest turnaround times for Arborist Reports and Consulting services in Burlington and the Niagara Region.",
         ]}
+        mandate="ON-1202 AM"
       />
       <section className="why">
         <Container>
@@ -57,7 +58,7 @@ const Home = () => {
             <Col lg="6">
               <Why
                 title={[<span>Why</span>, "You Need An Arborist"]}
-                desc="An ASCA Registered Consulting Arborist (RCA) is the foremost authority with respect to our urban forest"
+                desc="An ISA Certified TRAQ Arborist is the fundamental part of any successful Tree Tree Protection Plan."
                 btnText="Learn Why"
                 btnLink="/why-you-need-an-arborist"
                 img={whyImg}
