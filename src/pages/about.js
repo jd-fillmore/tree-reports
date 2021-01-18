@@ -68,7 +68,7 @@ const About = () => {
               </Col>
               <Col lg="6">
                 <p>
-                  Harry Althorpe is the Senior Consulting Arborist and has over
+                  Harry Althorpe is our Senior Consulting Arborist and has over
                   25 years experience in the field of arboriculture. He is a
                   graduate of Niagara &amp; Humber Colleges, and has been a
                   certified arborist since 2002. Harry grew up in the Niagara

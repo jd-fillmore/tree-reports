@@ -24,7 +24,7 @@ const Why = () => {
       <Nav />
       <InnerHero
         title="Why You Need An Arborist"
-        description="Benefits for why you need an arborist"
+        description="Reasons you may need an Arborist"
       />
       <InnerContent>
         <section className="inner">

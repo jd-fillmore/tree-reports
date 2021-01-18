@@ -35,8 +35,8 @@ const Footer = () => {
                 Here at TreeReports we offer the full spectrum of consulting
                 services in the field of arboriculture. We are committed to
                 providing unparalleled customer service to all of our clients.
-                Our Registered Consulting Arborist possesses a wealth of
-                knowledge to cover all your consulting arborist needs.{" "}
+                Our Certified Consulting Arborists possess a wealth of knowledge
+                to cover all your urban forestry needs.{" "}
               </p>
               <a className="ig" href="https://www.instagram.com/treereports/">
                 Follow us on Instagram
@@ -55,6 +55,14 @@ const Footer = () => {
             <Col lg="4">
               <h5>Contact</h5>
               <ul>
+                <li>
+                  <a href="mailto:office@treereports.ca">
+                    office@treereports.ca
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:289-686-2331">289-686-2331</a>
+                </li>
                 <li>
                   <Link to="/get-a-quote">Get A Quote</Link>
                 </li>
