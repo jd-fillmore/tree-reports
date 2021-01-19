@@ -68,6 +68,10 @@ const Footer = () => {
                 </li>
               </ul>
               <p>&copy; 2021 TreeReports. All Rights Reserved.</p>
+              <p>
+                <Link to="/infused">Web design &amp; SEO</Link> by Infused
+                Agency
+              </p>
             </Col>
           </Row>
         </Container>
