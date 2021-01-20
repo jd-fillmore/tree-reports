@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://website.com`,
+    siteUrl: `https://treereports.ca`,
   },
   plugins: [
     {
@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://website.com",
-        sitemap: "https://website.com/sitemap.xml",
+        host: "https://treereports.ca",
+        sitemap: "https://treereports.ca/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
