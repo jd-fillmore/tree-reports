@@ -58,7 +58,7 @@ const Home = () => {
             <Col lg="6">
               <Why
                 title={[<span>Why</span>, "You Need An Arborist"]}
-                desc="An ISA Certified TRAQ Arborist is the fundamental part of any successful Tree Tree Protection Plan."
+                desc="An ISA Certified TRAQ Arborist is the fundamental part of any successful Tree Protection Plan."
                 btnText="Learn Why"
                 btnLink="/why-you-need-an-arborist"
                 img={whyImg}
