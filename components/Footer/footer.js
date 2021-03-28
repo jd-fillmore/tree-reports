@@ -69,8 +69,8 @@ const Footer = () => {
               </ul>
               <p>&copy; 2021 TreeReports. All Rights Reserved.</p>
               <p>
-                <Link to="/infused">Web design &amp; SEO</Link> by Infused
-                Agency
+                <a href="https://infused.agency">Niagara web design</a> by
+                Infused Agency
               </p>
             </Col>
           </Row>
