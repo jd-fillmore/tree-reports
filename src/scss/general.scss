@@ -56,3 +56,49 @@ h3 {
     font-size: 24px !important;
   }
 }
+
+.slick-dots {
+  bottom: -50px !important;
+  @include bp-tablet-sm {
+    bottom: -25px !important;
+  }
+}
+
+.slick-prev {
+  left: 2% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.slick-prev,
+.slick-next {
+  transform: translate(0) !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: $green !important;
+  font-size: 40px !important;
+  @include bp-tablet-sm {
+    display: none;
+  }
+}
+
+.slick-slider {
+  margin-bottom: 100px;
+  @include bp-tablet-sm {
+    margin-bottom: 50px;
+  }
+  button {
+    &:hover {
+      transform: none !important;
+      border: none !important;
+    }
+    &:focus {
+      border: none !important;
+    }
+  }
+}

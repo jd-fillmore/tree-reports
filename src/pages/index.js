@@ -32,7 +32,7 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero
-        title="Certified Consulting Arborists in Niagara Region"
+        title="Certified Arborists in Niagara Region"
         subtitle="We cover all of your arborist needs in Niagara &amp; beyond."
         btnText="Get A Quote"
         btnLink="get-a-quote"
@@ -45,10 +45,10 @@ const Home = () => {
         imgAlt="certified consulting support arborist in niagara"
         author="Harry Althorpe, Owner | TreeReports"
         description={[
-          "Tree Reports - That's all we do!  Arborist Reports, Tree Protection Plans and Consulting.  Over 25 years experience in the municipal, utility, and private sectors.",
+          "Tree Reports - Tree Removal, Tree Pruning and Arborist Reports. Over 25 years experience in the municipal, utility, and private sectors.",
           <br />,
           <br />,
-          "Fastest turnaround times for Arborist Reports and Consulting services in Burlington and the Niagara Region.",
+          "Very fast turnaround times for Tree Services and Consulting in Burlington and the Niagara Region",
         ]}
         mandate="ON-1202 AM"
       />
@@ -58,7 +58,7 @@ const Home = () => {
             <Col lg="6">
               <Why
                 title={[<span>Why</span>, "You Need An Arborist"]}
-                desc="An ISA Certified TRAQ Arborist is the fundamental part of any successful Tree Protection Plan."
+                desc="An ISA Certified TRAQ Arborist is the fundamental part of any successful tree related project."
                 btnText="Learn Why"
                 btnLink="/why-you-need-an-arborist"
                 img={whyImg}
@@ -68,7 +68,7 @@ const Home = () => {
             <Col lg="6">
               <Why
                 title={[<span>How</span>, "We Can Help"]}
-                desc="TreeReports covers the full spectrum of all your consulting arborist needs. "
+                desc="TreeReports covers the full spectrum of all your Arboriculture needs."
                 btnText="Learn How"
                 btnLink="/about"
                 img={howImg}
