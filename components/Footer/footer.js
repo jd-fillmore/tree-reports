@@ -10,6 +10,10 @@ const pages = [
     link: "/services",
   },
   {
+    name: "Consulting",
+    link: "/consulting",
+  },
+  {
     name: "About",
     link: "/about",
   },
