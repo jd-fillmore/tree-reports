@@ -7,7 +7,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-import PortfolioSlider from "../../components/PortfolioSlider/portfolioSlider"
+import PortfolioSliderConsulting from "../../components/PortfolioSliderConsulting/portfolioSliderConsulting"
 import img from "../img/services.jpg"
 
 const serviceOne = [
@@ -50,7 +50,7 @@ const Consulting = () => {
           <Container>
             <Row>
               <Col lg="12">
-                <PortfolioSlider />
+                <PortfolioSliderConsulting />
               </Col>
             </Row>
           </Container>

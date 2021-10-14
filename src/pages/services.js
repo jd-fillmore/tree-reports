@@ -7,7 +7,7 @@ import InnerContent from "../../components/innerContent/innerContent"
 import CTA from "../../components/CTA/cta"
 import Footer from "../../components/Footer/footer"
 
-import PortfolioSlider from "../../components/PortfolioSlider/portfolioSlider"
+import PortfolioSliderServices from "../../components/PortfolioSliderServices/portfolioSliderServices"
 import img from "../img/services.jpg"
 
 const treeRemoval = [
@@ -34,6 +34,13 @@ const Services = () => {
       />
       <InnerContent>
         <section className="inner">
+          <Container>
+            <Row>
+              <Col lg="12">
+                <PortfolioSliderServices />
+              </Col>
+            </Row>
+          </Container>
           <Container>
             <Row>
               <Col lg="6">

@@ -4,11 +4,6 @@ import Slider from "react-slick"
 import "../../node_modules/slick-carousel/slick/slick.css"
 import "../../node_modules/slick-carousel/slick/slick-theme.css"
 
-import one from "../../src/img/port-1.webp"
-import two from "../../src/img/port-2.webp"
-import three from "../../src/img/port-3.webp"
-import four from "../../src/img/port-4.webp"
-import five from "../../src/img/port-5.webp"
 import six from "../../src/img/port-6.webp"
 import seven from "../../src/img/port-7.webp"
 import eight from "../../src/img/port-8.webp"
@@ -54,51 +49,6 @@ const PortfolioSlider = () => {
   return (
     <>
       <Slider {...settings}>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={one}
-            alt="one"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={two}
-            alt="two"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={three}
-            alt="three"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={four}
-            alt="four"
-          />
-        </div>
-        <div>
-          <img
-            width="800"
-            height="799"
-            className="img-fluid"
-            src={five}
-            alt="five"
-          />
-        </div>
         <div>
           <img
             width="800"
